@@ -1,0 +1,7 @@
+[user]
+	name = Travis Duffy
+	email = travis@travisduffy.dev
+[color]
+	diff = auto
+	status = auto
+	branch = auto

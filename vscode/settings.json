@@ -1,0 +1,39 @@
+{
+    //--- Look & feel
+    "editor.fontFamily": "'JetBrains Mono', 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "workbench.iconTheme": "material-icon-theme",
+
+    //--- UI settings
+    "window.menuBarVisibility": "default",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.codeLens": false,
+
+    //--- Prettier settings
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+
+    //--- Emmet settings
+    "emmet.includeLanguages": {
+        "php": "html",
+        "aspnetcorerazor": "html",
+        "javascript": "javascriptreact"
+    },
+
+    //--- Formatter defaults
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
