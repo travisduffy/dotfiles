@@ -1,9 +1,14 @@
 # dotfiles
-Configurations and setup scripts for my Ubuntu flavoured dev environment
-
+Configurations and setup scripts for my dev environment (Ubuntu-flavoured!)  
 To use:  
-Clone repo to the root of the home directory and run:
+  
+```
+sudo apt install git
+cd ~
+git clone https://github.com/travisduffy/dotfiles.git
+cd dotfiles/scripts && source ENGAGE.sh
+```
 
-```
-cd ~/dotfiles/scripts && ./ENGAGE.sh
-```
+#### dotfiles inspo:  
+https://github.com/tomnomnom/dotfiles  
+https://github.com/victoriadrake/dotfiles  
