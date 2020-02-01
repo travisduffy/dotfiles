@@ -10,10 +10,9 @@ sudo apt update
 sudo apt install -y code
 rm packages.microsoft.gpg
 
-# Symlink settings
+# Symlink settings & keybindings
 rm $HOME/.config/Code/User/settings.json
 rm $HOME/.config/Code/User/keybindings.json
-
 ln -s $(pwd)/../../vscode/settings.json $HOME/.config/Code/User/settings.json
 ln -s $(pwd)/../../vscode/keybindings.json $HOME/.config/Code/User/keybindings.json
 
@@ -23,3 +22,10 @@ function installExt {
 
 # Install extensions
 installExt esbenp.prettier-vscode
+installExt pkief.material-icon-theme
+installExt coenraads.bracket-pair-colorizer
+installExt s3anmorrow.color-stamp
+installExt ritwickdey.liveserver
+installExt dsznajder.es7-react-js-snippets
+installExt bmewburn.vscode-intelephense-client
+installExt ms-python.python
