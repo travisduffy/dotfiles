@@ -3,10 +3,11 @@
     "editor.fontFamily": "'JetBrains Mono', 'Courier New', monospace",
     "editor.fontSize": 13,
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
 
     //--- UI settings
     "window.menuBarVisibility": "default",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.activityBar.visible": true,
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
@@ -15,6 +16,7 @@
     //--- Prettier settings
     "prettier.singleQuote": true,
     "prettier.jsxSingleQuote": true,
+    "prettier.tabWidth": 4,
 
     //--- Emmet settings
     "emmet.includeLanguages": {
@@ -35,5 +37,6 @@
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "php.validate.executablePath": "/opt/lampp/bin/php"
 }
