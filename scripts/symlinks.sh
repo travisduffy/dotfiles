@@ -32,6 +32,7 @@ function linkDotfile {
 # Link all dotfiles
 linkDotfile .bashrc
 linkDotfile .bash_profile
+linkDotFile .git-prompt
 linkDotfile .gitconfig
 
 # Link fonts
