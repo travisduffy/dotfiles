@@ -9,11 +9,13 @@ reset=$(tput sgr0)
 colUser=$(tput setaf 87)
 colHost=$(tput setaf 121)
 colDir=$(tput setaf 147)
-colGit=$(tput setaf 200)
-colBranch=$(tput setaf 210)
+
+#colGit=$(tput setaf 200)
+#colBranch=$(tput setaf 210)
+
 colPointer=$(tput setaf 119)
 
-gitBranch=$(__git_ps1 '(%s)') 
+#gitBranch=$(__git_ps1 '(%s)') 
 
 # Build & export prompt
 PS1="\[${bold}${colUser}\]\u"           #user
