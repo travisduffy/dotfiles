@@ -12,3 +12,5 @@ echo "deb-src https://deb.nodesource.com/$VERSION $DISTRO main" | sudo tee -a /e
 
 sudo apt update
 sudo apt install -y nodejs
+
+echo -e "🛠️ Node.js Installed!\n"

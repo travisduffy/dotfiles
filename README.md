@@ -1,6 +1,6 @@
 # dotfiles
-Configurations and setup scripts for my dev environment (Ubuntu-flavoured!)  
-To use:  
+Configurations and setup scripts for my Ubuntu-flavoured daily driver
+To use: Copy & paste this command on a fresh Ubuntu install  
   
 ```
 sudo apt install git

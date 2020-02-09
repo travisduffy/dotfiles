@@ -29,3 +29,5 @@ installExt ritwickdey.liveserver
 installExt dsznajder.es7-react-js-snippets
 installExt bmewburn.vscode-intelephense-client
 installExt ms-python.python
+
+echo -e "🛠️ VS Code Installed!\n"

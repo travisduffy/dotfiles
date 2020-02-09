@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Run this file to setup the system!
+# Bootstrapper file to install entire system
 
 bold=$(tput bold)
 reset=$(tput sgr0)
@@ -11,9 +11,9 @@ sudo apt update
 
 # Run scripts
 echo -e "\n🛠️  ${bold}Running scripts${reset}  🛠️\n"
-./symlinks.sh
 ./aptinstall.sh
 ./software.sh
+./symlinks.sh
 
 # Get all upgrades
 echo -e "\n🛠️  ${bold}Upgrading packages${reset}  🛠️\n"
