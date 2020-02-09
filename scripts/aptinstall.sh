@@ -14,6 +14,5 @@ function install {
 install git
 install curl
 install htop
-install micro
 install google-chrome-stable
 install neofetch
