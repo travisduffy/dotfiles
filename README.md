@@ -11,6 +11,6 @@ cd dotfiles/scripts && source ENGAGE.sh
 ```  
 
 #### ✨ dotfiles inspo:  
-github.com/tomnomnom/dotfiles  
-github.com/victoriadrake/dotfiles  
-reddit.com/r/unixporn/
+https://github.com/tomnomnom/dotfiles  
+https://github.com/victoriadrake/dotfiles  
+https://reddit.com/r/unixporn/
