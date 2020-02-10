@@ -1,6 +1,7 @@
-# dotfiles
+# 🛠️ dotfiles
 Configurations and setup scripts for my Ubuntu-flavoured daily driver  
-To use: Copy & paste this command on a fresh Ubuntu install  
+  
+On a fresh Ubuntu install go:
   
 ```
 sudo apt install git
@@ -9,6 +10,7 @@ git clone https://github.com/travisduffy/dotfiles.git
 cd dotfiles/scripts && source ENGAGE.sh
 ```  
 
-#### dotfiles inspo:  
-https://github.com/tomnomnom/dotfiles  
-https://github.com/victoriadrake/dotfiles  
+#### ✨ dotfiles inspo:  
+github.com/tomnomnom/dotfiles  
+github.com/victoriadrake/dotfiles  
+reddit.com/r/unixporn/
