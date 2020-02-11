@@ -7,6 +7,8 @@ reset=$(tput sgr0)
 
 sudo apt install software-properties-common -y
 
+cp ../.git-prompt.sh ~/
+
 # Update apt packages
 echo -e "\n🛠️  ${bold}Updating packages${reset}  🛠️\n"
 sudo apt update

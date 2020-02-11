@@ -30,7 +30,6 @@ function linkDotfile {
 }
 
 # Link all dotfiles
-linkDotFile .git-prompt.sh
 linkDotfile .gitconfig
 linkDotfile .bashrc
 linkDotfile .bash_profile
