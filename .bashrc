@@ -30,10 +30,15 @@ buildPS1() {
 PROMPT_COMMAND=buildPS1
 buildPS1
 
-# Aliases
+#--- Aliases
 alias ls='ls --color=auto'
 alias ll='ls -laF --color=auto'
 alias grep='grep --color=auto'
+
+# LAMP stack
+alias lamp-start='sudo /opt/lampp/lampp start'
+alias lamp-stop='sudo /opt/lampp/lampp stop'
+alias lamp-restart='sudo /opt/lampp/lampp restart'
 
 # Quick bash profile edits
 alias brc='nano ~/dotfiles/.bashrc'
