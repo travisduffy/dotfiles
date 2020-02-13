@@ -1,0 +1,16 @@
+! -- Styles - Colors
+#include "/home/travis/.Xresources-color"
+
+! -- Styles - Fonts
+#include "/home/travis/.Xresources-typeface"
+
+! -- Styles - Theme
+#include "/home/travis/.Xresources-theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+#include "/home/travis/.config/regolith/styles/st-term"
+#include "/home/travis/.config/regolith/styles/i3-wm"
+#include "/home/travis/.config/regolith/styles/i3xrocks"
+#include "/home/travis/.config/regolith/styles/rofi"
+#include "/home/travis/.config/regolith/styles/gnome"

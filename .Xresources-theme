@@ -1,0 +1,4 @@
+#define gtk_theme           Adwaita-dark
+#define icon_theme          Adwaita
+#define desktop_wallpaper   /home/travis/wallpaper.png
+#define rofi_theme          /home/travis/.config/regolith/styles/rofi.rasi

@@ -16,6 +16,7 @@ sudo apt update
 echo -e "\n🛠️  ${bold}Running scripts${reset}  🛠️\n"
 ./aptinstall.sh
 ./software.sh
+./desktop.sh
 ./symlinks.sh
 
 # Get all upgrades

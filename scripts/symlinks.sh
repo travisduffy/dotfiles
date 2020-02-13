@@ -34,6 +34,12 @@ linkDotfile .gitconfig
 linkDotfile .bashrc
 linkDotfile .bash_profile
 
+# Window manager theme
+linkDotfile .Xresources-color
+linkDotfile .Xresources-typeface
+linkDotfile .Xresources-theme
+linkDotfile .Xresources-regolith
+
 # Link fonts
 if [ -h ~/.fonts ]; then
     echo "Removing existing fonts"

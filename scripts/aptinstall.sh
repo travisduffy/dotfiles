@@ -11,6 +11,7 @@ function install {
   fi
 }
 
+install build-essential
 install software-properties-common
 install git
 install curl

@@ -38,3 +38,6 @@ alias grep='grep --color=auto'
 # Quick bash profile edits
 alias brc='nano ~/dotfiles/.bashrc'
 alias brcr='source ~/dotfiles/.bashrc'
+
+# Refresh Regolith desktop
+alias rego='regolith-look refresh'
