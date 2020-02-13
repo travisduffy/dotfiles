@@ -5,8 +5,7 @@
 bold=$(tput bold)
 reset=$(tput sgr0)
 
-sudo apt install software-properties-common -y
-
+mkdir ~/.config
 cp ../.git-prompt.sh ~/
 
 # Update apt packages

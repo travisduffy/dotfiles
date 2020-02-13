@@ -11,8 +11,10 @@ function install {
   fi
 }
 
+install software-properties-common
 install git
 install curl
+install wget
 install htop
-install google-chrome-stable
+install powertop
 install neofetch
