@@ -30,9 +30,10 @@ function linkDotfile {
 }
 
 # Link all dotfiles
-linkDotfile .gitconfig
+linkDotfile .profile
 linkDotfile .bashrc
 linkDotfile .bash_profile
+linkDotfile .gitconfig
 
 # Window manager theme
 linkDotfile .Xresources-color

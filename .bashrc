@@ -31,7 +31,7 @@ PROMPT_COMMAND=buildPS1
 buildPS1
 
 #--- Aliases
-alias ls='ls --color=auto'
+alias l='ls --color=auto'
 alias ll='ls -laF --color=auto'
 alias grep='grep --color=auto'
 
