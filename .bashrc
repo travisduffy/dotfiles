@@ -18,7 +18,7 @@ colPointer=$(tput setaf 119)
 
 # Builds bash prompt
 buildPS1() {
-    export PS1="\n\[${bold}${colUser}\]\u\[${colHost}\]@\h\[${reset}\]\[${colDir}\] \w \[${colGit}\]$(__git_ps1)\n\[${bold}${colPointer}\]~> \[${reset}\]"
+    export PS1="\n\[${bold}${colUser}\]\u\[${colHost}\]@\h\[${reset}\]\[${colDir}\] \w \[${colGit}\]$(__git_ps1)\n\[${bold}${colPointer}\] ~> \[${reset}\]"
 }
 
 # Rebuild bash prompt every time to update git status in prompt
