@@ -18,20 +18,16 @@ colPointer=$(tput setaf 119)
 
 # Builds bash prompt
 buildPS1() {
-    PS1="\[${bold}${colUser}\]\u"           #user
-    PS1+="\[${colHost}\]@\h\[${reset}\]"    #host
-    PS1+="\[${colDir}\] \w"                 #directory
-    PS1+="\[${colGit}$(__git_ps1)\] "       #branch
-    PS1+="\[${bold}${colPointer}\]~> "      #pointer
-    PS1+="\[${reset}\]"                     #reset all
-    export PS1
+    export PS1="\n\[${bold}${colUser}\]\u\[${colHost}\]@\h\[${reset}\]\[${colDir}\] \w \[${colGit}\]$(__git_ps1)\n\[${bold}${colPointer}\]~> \[${reset}\]"
 }
 
+# Rebuild bash prompt every time to update git status in prompt
 PROMPT_COMMAND=buildPS1
 buildPS1
 
 #--- Aliases
 alias l='ls --color=auto'
+alias ls='ls --color=auto'
 alias ll='ls -laF --color=auto'
 alias grep='grep --color=auto'
 
