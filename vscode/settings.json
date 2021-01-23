@@ -38,7 +38,5 @@
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "php.validate.executablePath": "/opt/lampp/bin/php",
-    "workbench.statusBar.visible": false
+    }
 }
