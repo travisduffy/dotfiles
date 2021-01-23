@@ -19,11 +19,9 @@ function installExt {
 installExt esbenp.prettier-vscode
 installExt pkief.material-icon-theme
 installExt coenraads.bracket-pair-colorizer
-installExt s3anmorrow.color-stamp
+installExt s3anmorrow.color-stamp # thanks Sean!
 installExt ritwickdey.liveserver
 installExt dsznajder.es7-react-js-snippets
-installExt bmewburn.vscode-intelephense-client
-installExt ms-python.python
 
 # Add personal configs
 rm -f ~/.config/Code/User/settings.json
